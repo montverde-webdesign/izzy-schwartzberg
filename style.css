@@ -9,3 +9,45 @@
 
    We'll write styles here starting Monday.
    ========================================================== */
+body {
+    font-family: comic sans ms, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe5f1;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #ff69b4;
+    border-bottom: 2px solid #69c8ff;
+    text-shadow: 4px 4px 4px #62c0ff;
+    font-weight: bold;
+}
+p{
+    color: #f13c81;
+    text-shadow: 1px 1px 2px #7aceff;
+}
+ol {
+    color: #bb1b6b;
+    text-shadow: 1px 1px 2px #ff5ab5;
+}
+a {
+    color: #c20469;
+    text-decoration: underline;
+    text-decoration-color: #c20469;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #bd085c;
+
+}
+a:hover {
+    color: #699eff;
+    text-decoration-color: #0b66cf;
+    text-decoration-style: solid;
+    text-decoration-thickness: 2px;
+    }
+a:link{
+    color: #c20469;
+    }
